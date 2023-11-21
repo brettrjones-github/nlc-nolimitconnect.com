@@ -1,3 +1,13 @@
 
 From visual code start local server
 In terminal run command netlify dev
+
+=== Hide.me ===
+Ports 
+Windows Main - 37770
+Linux - 37771
+Android Tablet 1 - 37772
+Android Tablet 2 - 37773
+Windows 2 - 37774
+Flip Phone - 37775 
+
