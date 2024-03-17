@@ -1,6 +1,7 @@
 
 From visual code start local server
-In terminal run command netlify dev
+In terminal run command 
+netlify dev
 
 === Hide.me ===
 Ports 
