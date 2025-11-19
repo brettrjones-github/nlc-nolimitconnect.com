@@ -1,0 +1,7 @@
+[build]
+  base    = "nolimitconnect-docs"
+  publish = "site"
+  command = "pip install mkdocs-material && mkdocs build"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
