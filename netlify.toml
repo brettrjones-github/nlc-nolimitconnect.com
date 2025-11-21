@@ -1,0 +1,6 @@
+[build]
+  command = "pip install mkdocs-material mkdocs-material-extensions pymdown-extensions && mkdocs build"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
