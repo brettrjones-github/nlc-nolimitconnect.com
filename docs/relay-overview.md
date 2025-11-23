@@ -10,7 +10,7 @@ This page explains how relay behavior works.
 
 # 🟢 Hosting Requires an Open Port
 
-To host anything — groups, chat rooms, random connect, or other services — your device **must** have:
+To host anything — groups, chat rooms, random connect, or other network host services — your device **must** have:
 
 - A publicly reachable IP  
 - An open port (via UPnP, VPN, or manual forwarding)

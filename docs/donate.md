@@ -1,36 +1,60 @@
-# Developer Documentation Overview
 
-Welcome to the NoLimitConnect Developer Documentation.
+## 🙌 Why Donate?
 
-This section provides everything you need to build, compile, and contribute to the NoLimitConnect project across all supported platforms.
+NoLimitConnect takes a strong stance on:
 
----
+- ❌ No ads  
+- ❌ No analytics tracking  
+- ❌ No data harvesting  
+- ❌ No corporate backing  
+- ✔ 100% user-controlled communication  
+- ✔ 100% open-source  
 
-## 🛠 Build Environments
-
-- **Windows Build Environment**  
-  Setup instructions for Visual Studio, SDKs, and the Windows-specific toolchain.
-
-- **Ubuntu Build Environment**  
-  Required libraries, dependencies, and system configuration.
-
-- **Docker Build Environment**  
-  Build system isolation using containerized environments.
+Your donation helps sustain the project so development can continue without compromising on privacy or freedom.
 
 ---
 
-## 🧱 Compilation Guides
+# 🟣 Monero (XMR)
 
-- **Compile with Visual Studio**
-- **Compile with Qt Creator**
-- **Compile using Docker**
-- **Compile as Flatpak**
+Monero provides industry‑leading privacy for both sender and receiver.
 
-Each guide includes step-by-step instructions for configuring your development environment and successfully building the project.
+**XMR Address:**  
+```
+83c8TFe3JdgRcnCDBu7WgZA8cUr7x2Qs597x8gZwtoR6YJbZRZNuUgF8MF2HTkqoWPbHA92m22gcg72FPmzo6jfCJhPo4g5
+```
+
+**Scan to Donate:**  
+![Monero Donation QR](assets/monero_qr.png)
+
+[🟣 Donate with Monero](monero:83c8TFe3JdgRcnCDBu7WgZA8cUr7x2Qs597x8gZwtoR6YJbZRZNuUgF8MF2HTkqoWPbHA92m22gcg72FPmzo6jfCJhPo4g5)
 
 ---
 
-## Contributing
+# 🟠 Bitcoin (BTC)
+
+Bitcoin is widely supported and simple for donors to use.  
+This address is dedicated exclusively to NoLimitConnect donations.
+
+**BTC Address:**  
+```
+bc1qydxh3cqtqhsve3p7yjkukvwrk4psnurdndz9q2
+```
+
+**Scan to Donate:**  
+![Bitcoin Donation QR](assets/bitcoin_qr.png)
+
+[🟠 Donate with Bitcoin](bitcoin:bc1qydxh3cqtqhsve3p7yjkukvwrk4psnurdndz9q2)
+
+---
+
+## Thank You ❤️
+
+NoLimitConnect exists because people like you value privacy, freedom, and independent technology.  
+Your support helps ensure it stays that way.
+
+---
+
+## Contributing in other ways
 
 My name is Brett R. Jones, and NoLimitConnect is a long-term passion project that I have been building independently for many years. I continue to work full-time, and while I’m deeply committed to developing this platform, my professional environment strongly discourages any form of social networking activity — even outside of work. 
 
@@ -55,11 +79,3 @@ You can contact me at:
 - Absolutely **no advertising or spam**, with the single exception of Hide.me VPN (recommended for users needing automatic port forwarding).  
 - The project will remain privacy-first and user-controlled — no analytics, tracking, or monetization that compromises user autonomy.
 
-### Donations & Support
-
-If NoLimitConnect ever receives meaningful financial support, I am fully open to sharing donations with contributors who help grow and maintain the project.
-
----
-
-Any level of involvement — whether technical, social, or organizational — is appreciated.  
-Your support can help ensure the long-term growth and success of NoLimitConnect.

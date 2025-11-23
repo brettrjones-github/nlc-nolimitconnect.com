@@ -52,22 +52,6 @@ Windows, Linux, Raspberry Pi and Android supported.
 ### :material-book-cog: Extensive Documentation
 User guides, developer docs, and build instructions included.
 
-### :material-puzzle: Built-In Plugins
-o Streaming service for media files
-o Share and transfer files (No file size limit)
-o Video Chat
-o Truth or Dare Video Chat game
-o Push To Talk VOIP (Voice Over IP)
-o VOIP Voice Phone
-o Messenger
-o About Me user page
-o Storyboard blog page
-o Web Cam Server
-o Media Player - Privacy Enhanced (Based on Kodi(TM) and Ffmpeg)
-o Chat Room host and client
-o Random Connect host and client
-o Group host and client
-
 ---
 
 !!! tip "Need Direct Connections Without Router Configuration?"

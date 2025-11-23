@@ -5,7 +5,7 @@ NoLimitConnect is a decentralized, user-hosted social platform designed to give 
 - **Privacy-focused** — Your data stays with you.
 - **Censorship-resistant** — No single authority controls the network.
 - **User-hosted** — Users host their own profiles and media.
-- **Cross-platform** — Windows, Linux, Android, Docker.
+- **Cross-platform** — Windows, Linux, Raspberry Pi, Android, Docker FlatHub.
 
 ## Vision
 
