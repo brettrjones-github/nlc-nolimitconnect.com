@@ -60,7 +60,7 @@ markdown_extensions:
 docs_dir: docs
 
 # ------------------------------------------------------
-# Navigation Structure (Fixed & Complete)
+# Navigation Structure 
 # ------------------------------------------------------
 nav:
   - Home: index.md
@@ -69,6 +69,8 @@ nav:
       - About: about.md
 
   - Download: download.md
+
+  - FAQ: faq.md
 
   - User Guides:
       - Overview: user-docs/README.md
