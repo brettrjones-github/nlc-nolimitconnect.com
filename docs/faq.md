@@ -52,3 +52,29 @@ To run NLC as a private network host, the following options are recommended:
 
 ---
 
+## Do I Need Dedicated Hardware to Host a Private Network?
+
+No. Hosting a private NLC network does **not** require specialized or dedicated hardware.  
+There are only two essential requirements for any type of NLC hosting:
+
+1. **An active NoLimitConnect application instance**  
+2. **An open network port**  
+   — Refer to the *Connectivity* section for detailed guidance.
+
+With these basics in place, you can host a private network on virtually any compatible device.
+
+---
+
+## Why We Encourage Network Hosting
+
+NLC is designed with a strong focus on privacy and freedom of expression. While the platform operates legally and transparently, history has shown that services promoting open communication can still face external pressures or attempts at deplatforming.
+
+By enabling users to host their own networks, we eliminate reliance on any single organization or centralized service. This decentralized model ensures that:
+
+- **No single point of failure exists** — individual networks remain operational even if others are targeted.
+- **Users maintain control** over their data, uptime, and community policies.
+- **Censorship resistance is strengthened**, as there is no central entity that can be taken down to silence the platform.
+
+Encouraging distributed hosting empowers the community and protects the long-term resilience of NLC.
+
+---

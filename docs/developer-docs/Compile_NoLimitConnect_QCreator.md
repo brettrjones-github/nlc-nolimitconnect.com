@@ -12,13 +12,13 @@ cd nolimitapp/build/nlc_build
 rm -rf *
 
 ### Linux build
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_LINUX=true -DQT_VERSION=6_6_3
+cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_LINUX=true -DQT_VERSION=6_9_3
 
 ### Android aarch64
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_6_3 -DARM64=true
+cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_9_3 -DARM64=true
 
 ### Android arm7
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_6_3 -DARM32=true
+cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_9_3 -DARM32=true
 
 ### Compile
 make -j$(nproc)
