@@ -1,24 +1,25 @@
 # Compile NoLimitConnect Using Qt Creator
 
-## Compile in Qt Creator
+### 1. Clone the Repository
+
+```bash
 git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
-Open nolimitapp/CMakeList.txt in Qt Creator
-Configure and Compile
+```
 
-## Compile from command line in Linux
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
-mkdir -p nolimitapp/build/nlc_build
-cd nolimitapp/build/nlc_build
-rm -rf *
+### 2. Open the Project in Qt Creator
 
-### Linux build
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_LINUX=true -DQT_VERSION=6_9_3
+- Launch **Qt Creator**
+- Select **Open Project**
+- Open the file:  
+  `nolimitapp/CMakeLists.txt`
 
-### Android aarch64
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_9_3 -DARM64=true
+---
 
-### Android arm7
-cmake -S ../.. -B . -DCMAKE_BUILD_TYPE=Release -DTARGET_OS_ANDROID=true -DQT_VERSION=6_9_3 -DARM32=true
+### 3. Configure & Build
 
-### Compile
-make -j$(nproc)
+- Select your **Qt Kit**  
+  *(e.g., Qt 6.9.x for Desktop)*
+- Allow Qt Creator to configure the project
+- Click **Build** to generate the exe
+
+---

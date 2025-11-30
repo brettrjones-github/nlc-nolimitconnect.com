@@ -1,38 +1,24 @@
 # 📱 Building NoLimitConnect for Raspberry Pi
 
 This page describes the two supported methods for compiling NoLimitConnect for Raspberry Pi:  
-**(1) using Qt Creator** and **(2) using Flatpac**.
+**(1) using Qt Creator** and **(2) using Flatpak**.
 
 ---
 
 ## 🚀 Option 1 — Build with Qt Creator (Recommended)
 
 
-### 1. Clone the Repository
+### 1. Setup Qt
 
-```bash
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
-```
+- [**Setup Qt**](Setup_Linux_Build_Environment.md)
 
-### 2. Open the Project in Qt Creator
+### 2. Compile the Project in Qt Creator
 
-- Launch **Qt Creator**
-- Select **Open Project**
-- Open the file:  
-  `nolimitapp/CMakeLists.txt`
+- [**Compile with Qt**](Compile_NoLimitConnect_QCreator.md)
 
 ---
 
-### 3. Configure & Build
-
-- Select your **Qt Kit**  
-  *(e.g., Qt 6.9.x for Desktop)*
-- Allow Qt Creator to configure the project
-- Click **Build** to generate the exe
-
----
-
-## 🐳 Option 2 — Build Using Flatpak
+## 🚀 Option 2 — Build Using Flatpak
 
 If you prefer you can compile NoLimitConnect using Flatpak.
 

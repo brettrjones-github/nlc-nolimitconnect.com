@@ -32,11 +32,10 @@ You can download and install the Qt SDK from:
 
 ➡️ **<https://www.qt.io/download>**
 
-Recommended Java version
-
 *Note:*  
 The **Community Edition** may be less visible on the site and could require navigating through several pages to locate it.
 
+Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors when ran)
 
 ---
 
@@ -56,10 +55,10 @@ The **Community Edition** may be less visible on the site and could require navi
 
 ---
 
-### Ubuntu
-<img src="../assets/icons/icon-ubuntu.svg" width="48"/>
+### Linux
+<img src="../assets/icons/icon-tux.svg" width="48"/>
 
-[**Build for Ubuntu**](build-target-ubuntu.md)
+[**Build for Linux**](build-target-linux.md)
 
 ---
 
@@ -76,9 +75,9 @@ The **Community Edition** may be less visible on the site and could require navi
   Setup instructions for Visual Studio, SDKs, and the Windows-specific toolchain.
  [**Setup Windows**](Setup_Windows_Build_Environment.md)
 
-- **Ubuntu Build Environment**  
+- **Linux Build Environment**  
   Required libraries, dependencies, and system configuration.
- [**Setup Ubuntu**](Setup_Ubuntu_Build_Environment.md)
+ [**Setup Linux**](Setup_Linux_Build_Environment.md)
 
 - **Docker Build Environment**  
   Build system isolation using containerized environments.

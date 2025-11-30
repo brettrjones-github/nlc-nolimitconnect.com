@@ -11,7 +11,7 @@ This page describes the two supported methods for compiling NoLimitConnect for A
 Before building, your Qt installation must include the Android toolchain (Android SDK, NDK, Java, and Qt Android kits).
 
 📘 Setup Guide:  
- [**Setup Android Toolkit**](developer-docs/qt-android-kit-setup.md)
+ [**Setup Android Toolkit**](qt-android-kit-setup.md)
 
 ---
 
