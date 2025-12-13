@@ -2,7 +2,7 @@
 
 ## Prerequisite tools
 ```bash
-sudo apt install g++ nasm uuid-dev libglu1-mesa-dev git build-essential libxcb-*
+sudo apt install g++ nasm uuid-dev libglu1-mesa-dev git build-essential
 ```
 
 ### 🛠 Qt Setup and Recommended Version

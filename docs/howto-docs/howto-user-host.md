@@ -1,4 +1,4 @@
-# Configuring Plugins
+# How To Host Group, ChatRoom or Random Connect
 
 1. NLC Settings->Share Permission List page.
 2. Configure plugin-specific permission settings.

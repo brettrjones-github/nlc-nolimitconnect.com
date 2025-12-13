@@ -1,7 +1,7 @@
-# Port Forwarding Guide
+# Port Forwarding (Open A Netowrk Port) Guide
 
 Port forwarding allows your device to accept incoming connections directly from other NoLimitConnect users.  
-Direct connections provide the best experience and allow you to host services without relying on a relay.
+Direct connections provide the best experience and allows you to host services.
 
 ---
 
@@ -20,7 +20,7 @@ If your port is not open:
 Opening your port allows:
 
 - Direct peer-to-peer connections  
-- Hosting groups, chat rooms, and random connect  
+- Hosting groups, chat rooms, random connect and private networks  
 - Better speed and reliability  
 
 ---
@@ -33,11 +33,22 @@ Your connection bar color indicates the current network mode:
 - 🟠 **Orange** – port closed, using relay  
 - 🟢 **Green** – port open, direct connection enabled  
 
-You can view the test result in the **Network** or **Status** section of the app.
+You can view the test result in the **Network Status Bars** in the title bar of the app.
+![Network Status](assets/bars/network-status.png)
+
+If the bars are orange proceed to Step 2
 
 ---
 
-# 🌐 Step 2 — Enable UPnP (Automatic Method)
+# 🌐 Step 2 — Enable UPnP (Automatic Open A Port Method)
+
+## 🚀 Option 1 — The easy way
+
+1. Install hide.me VPN
+→ [VPN (Hide.me)](vpn.md)
+2. Restart NoLimitConnect
+
+## 🚀 Option 2 — The hard way
 
 Most modern routers support **UPnP (Universal Plug and Play)**.
 
@@ -79,8 +90,8 @@ Most mobile carriers use **carrier-grade NAT**, which does **not** support port 
 
 In these cases:
 
-- Direct mode is not possible  
-- Relay mode will be used automatically  
+- Direct mode is not possible without a VPN that supports UPNP
+- Relay mode will be used automatically if port is not open
 - NoLimitConnect will still function normally
 
 ---

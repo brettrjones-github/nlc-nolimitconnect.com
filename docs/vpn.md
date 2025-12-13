@@ -1,10 +1,31 @@
 # Recommended VPN: Hide.me
 
-Using a VPN can greatly improve connectivity in NoLimitConnect, especially when your network or ISP restricts incoming ports.  
+# 🧭 Get Started with Hide.me
+
+[![Hide.me VPN — Go Anonymous](assets/anonymousvpn-1200x444.png)](https://hide.me)
+
+Click the banner above to learn more or sign up.
+
+> **Note:** Hide.me is the *only* recommended external service on this site.  
+> NoLimitConnect does not receive user data from Hide.me.
+
+A free version of Hide.me VPN is available and is **NOT** time limited
+
+[Get the free version of Hide.me VPN from hide.me](https://hide.me/en/free-vpn)
+
+---
+
+Using any VPN greatly improves your privacy.
+Your IP Address gives any site you connect to your location and a way to track you.
+A VPN presents it's IP Address to the internet and hides your actual IP Address.
+
+Using Hide.me VPN can greatly improve connectivity in NoLimitConnect, especially when your network or ISP restricts incoming ports.  
 Hide.me VPN is one of the few VPN providers that fully supports:
 
-- **Automatic Port Forwarding**
-- **UPnP**
+- **Automatic Port Forwarding via UPnP**
+- **Practically all Operating Systems (Including Raspberry Pi)**
+- **IPv6 Support**
+- **Fixed IP Addresses**
 - **OpenVPN & WireGuard**
 - **Strict No-Logs Policy**
 
@@ -51,20 +72,10 @@ With a forwardable VPN port, you can host:
 - Group servers  
 - Chat Rooms  
 - Random Connect  
+- Private Networks 
 - Direct P2P sessions  
 
 even on networks that normally block it.
-
----
-
-# 🧭 Get Started with Hide.me
-
-[![Hide.me VPN — Go Anonymous](assets/anonymousvpn-1200x444.png)](https://hide.me)
-
-Click the banner above to learn more or sign up.
-
-> **Note:** Hide.me is the *only* recommended external service on this site.  
-> NoLimitConnect does not receive user data from Hide.me.
 
 ---
 

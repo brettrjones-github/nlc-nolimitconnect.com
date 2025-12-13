@@ -23,6 +23,8 @@ theme:
       accent: purple
 
   features:
+    - navigation.instant
+    - navigation.instant.reload
     - navigation.tabs
     - navigation.top
     - navigation.footer
@@ -100,9 +102,11 @@ nav:
 
   - How-To Guides:
       - Overview: howto-docs/README.md
-      - Configure Plugins: howto-docs/configure-plugins.md
-      - Setup Network: howto-docs/setup-network.md
-      - VPN & Port Forwarding: howto-docs/vpn-and-port-forwarding.md  
+      - Permission Levels Overview: howto-docs/howto-permission-levels.md
+      - Set User Permissions: howto-docs/howto-user-permission-levels.md
+      - Set Plugin Permissions: howto-docs/howto-plugin-permission-levels.md
+      - Stream Media: howto-docs/howto-stream.md 
+      - Host Group, ChatRoom or Random Connect: howto-docs/howto-user-host.md 
       - Troubleshooting: howto-docs/troubleshooting.md       
 
   - Legal:

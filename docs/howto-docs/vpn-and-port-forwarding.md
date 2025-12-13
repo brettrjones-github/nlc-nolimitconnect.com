@@ -1,2 +1,0 @@
-# VPN & Port Forwarding
-Placeholder.
