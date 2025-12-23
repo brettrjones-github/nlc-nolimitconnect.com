@@ -29,7 +29,7 @@ Opening your port allows:
 
 Your connection bar color indicates the current network mode:
 
-- 🟡 **Yellow** – testing your port  
+- 🟡 **Yellow** – testing your network 
 - 🟠 **Orange** – port closed, using relay  
 - 🟢 **Green** – port open, direct connection enabled  
 
@@ -72,7 +72,7 @@ If UPnP is not available:
 
 | Setting | Value |
 |--------|-------|
-| Port | Your NLC port (shown in app settings) |
+| Port | Your NLC port (shown in network settings) |
 | Protocol | TCP |
 | Internal IP | Your device's LAN IP address |
 | Description | “NoLimitConnect” |
