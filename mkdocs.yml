@@ -105,9 +105,19 @@ nav:
       - Permission Levels Overview: howto-docs/howto-permission-levels.md
       - Set User Permissions: howto-docs/howto-user-permission-levels.md
       - Set Plugin Permissions: howto-docs/howto-plugin-permission-levels.md
-      - Stream Media: howto-docs/howto-stream.md 
+      - Stream Media to other users: howto-docs/howto-stream.md 
+      - Add Files To Library: howto-docs/howto-add-files-to-library.md 
+      - Share Files: howto-docs/howto-share-media-files.md 
+      - Play Or Download Files: howto-docs/howto-play-or-download-files.md 
       - Host Group, ChatRoom or Random Connect: howto-docs/howto-user-host.md 
-      - Troubleshooting: howto-docs/troubleshooting.md       
+      - Open A Port: port-forwarding.md
+      - Setup A NLC Network - Overview:  howto-docs/howto-nlc-network-overview.md 
+      - Setup A NLC Network - Low/No Cost: howto-docs/howto-nlc-network-low-cost.md 
+      - Setup A NLC Network - High Cost: howto-docs/howto-nlc-network-high-cost.md 
+      - Setup A NLC Network - High Cost: howto-docs/howto-nlc-network-high-cost.md 
+      - Send Network Invite: howto-docs/howto-network-invite-send.md 
+      - Accept Network Invite: howto-docs/howto-network-invite-accept.md 
+
 
   - Legal:
       - Privacy Policy: nlc/privacy-policy.md 

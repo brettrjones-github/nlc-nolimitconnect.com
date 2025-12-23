@@ -11,9 +11,8 @@ NLC is designed to run on a wide range of hardware, with the following requireme
 - **Operating System:** 64-bit  
 - **CPU Architecture:** 64-bit  
   - *Note:* NLC can be compiled for 32-bit systems, but **32-bit is not officially supported**.
-- **Not Supported:**  
-  - Apple devices  
-    - This is due to high cost and restrictive platform policies.
+- **Not Supported - Apple devices:**  
+    - This is due to high cost and Apple's restrictive platform policies.
 
 ---
 
@@ -34,11 +33,11 @@ The following devices make up the author’s primary development and testing env
 
 ---
 
-## Recommended Hardware for a Private Network
+## Recommended Hardware for a NLC Network
 
 To run NLC as a private network host, the following options are recommended:
 
-1. **An older 64-bit Android phone**  
+1. **An old 64-bit Android phone**  
    -- No cellular service required  
    -- Low-power and suitable for always-on use
 
@@ -52,7 +51,7 @@ To run NLC as a private network host, the following options are recommended:
 
 ---
 
-## Do I Need Dedicated Hardware to Host a Private Network?
+## Do I Need Dedicated Hardware to Host a NLC Network?
 
 No. Hosting a private NLC network does **not** require specialized or dedicated hardware.  
 There are only two essential requirements for any type of NLC hosting:
@@ -62,6 +61,12 @@ There are only two essential requirements for any type of NLC hosting:
    — Refer to the *Connectivity* section for detailed guidance.
 
 With these basics in place, you can host a private network on virtually any compatible device.
+
+---
+
+## How do I setup my own NLC Network
+
+➡️ [How To Setup A NLC Network Host](howto-docs/howto-nlc-network-overview.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# Port Forwarding (Open A Netowrk Port) Guide
+# Port Forwarding (Open A Network Port) Guide
 
 Port forwarding allows your device to accept incoming connections directly from other NoLimitConnect users.  
 Direct connections provide the best experience and allows you to host services.

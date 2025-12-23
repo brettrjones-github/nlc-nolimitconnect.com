@@ -19,7 +19,7 @@
 
 ## Friend Permission
 
-NOTE: Clicking Make Friend or selecting radio button Set To Friend Permission are the same selection action
+NOTE: Clicking **Make Friend** or selecting radio button **Set To Friend Permission** are the same selection action
 
 ![Friend](../assets/howto/make-friend.png)
 
@@ -32,9 +32,9 @@ NOTE: If person joins the same host as you and were Anybody level they are autom
 ## Anybody Permission (Default permission for people you have not set the permission level for)
 ![Anybody](../assets/howto/permission-anonymous.png)
 
-## Ignore Permission
+## Ignore Permission (Block User)
 
-NOTE: Clicking Ignore or selecting radio button Ignore This Perse are the same selection action
+NOTE: Clicking **Ignore** or selecting radio button **Ignore This Person** are the same selection action
 
 ![Ignore](../assets/howto/ignore.png)
 
@@ -43,14 +43,14 @@ NOTE: Clicking Ignore or selecting radio button Ignore This Perse are the same s
 1. Frienship Icon in Persons Lists changes from 
 ![One sided Friendship](../assets/howto/icon-friend.png)
 to
-![Joined Friendship](../assets/howto/icon-friend-joined.png)
+![Joined Friendship](../assets/howto/icon-friend-joined.png).
 
-2. NLC will attempt to make a direct connection from you to your friend
+2. NLC will attempt to make a direct connection from you to your friend.
 
-    If direct connection is achieved then neither you or your friend need to join any host to communicate with each other
+    If direct connection is achieved then neither you or your friend need to join any host to communicate with each other.
 
-3. Person Menu will show all actions you can take (mostly determined by your friends plugin permission levels)
+3. Person Menu will show all actions you can take (mostly determined by your friends plugin permission levels).
 
-4. Your friend will show in Messenger and Friends List
+4. Your friend will show in Messenger and Friends List.
 
 ![Messenger](../assets/howto/friend-friend-permission.png)
