@@ -17,7 +17,7 @@ This folder contains practical step-by-step guides for configuring and maintaini
 1. ➡️ [How To Setup A NoLimitConnect Network - Low Cost](howto-nlc-network-low-cost.md)
 1. ➡️ [How To Setup A NoLimitConnect Network - High Cost](howto-nlc-network-high-cost.md)
 1. ➡️ [How to Setup and Configure an NLC Network Host](howto-nlc-network-host-setup.md)
-1. ➡️ [How To Send Network Invite](howto-network-invite-send.md)
-1. ➡️ [How To Accept Network Invite](howto-network-invite-accept.md)
+1. ➡️ [How To Create A Network Invite](howto-network-invite-create.md)
+1. ➡️ [How To Accept A Network Invite](howto-network-invite-accept.md)
 
 

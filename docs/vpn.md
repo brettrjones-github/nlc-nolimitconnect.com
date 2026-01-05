@@ -9,7 +9,7 @@ Click the banner above to learn more or sign up.
 > **Note:** Hide.me is the *only* recommended external service on this site.  
 > NoLimitConnect does not receive user data from Hide.me.
 
-A free version of Hide.me VPN is available and is **NOT** time limited but **Does Not** offer UPNP (Open A Port) services 
+A free version of Hide.me VPN is available but **DOES NOT** offer UPnP (Open A Port) services.
 
 [Get the free version of Hide.me VPN from hide.me](https://hide.me/en/free-vpn)
 
@@ -72,7 +72,7 @@ With a forwardable VPN port, you can host:
 - Group servers  
 - Chat Rooms  
 - Random Connect  
-- Private Networks 
+- Private NLC Networks 
 - Direct P2P sessions  
 
 even on networks that normally block it.

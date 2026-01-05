@@ -83,3 +83,17 @@ By enabling users to host their own networks, we eliminate reliance on any singl
 Encouraging distributed hosting empowers the community and protects the long-term resilience of NLC.
 
 ---
+
+## Encryption, Public and Privete Network Keys
+
+➡️ [Encryption Overview](encryption-overview.md)
+
+---
+
+## Permission Levels
+
+Permission to each plugin depends on permission level assigned to the plugin and permission level assigned to user
+
+➡️ [Permission Levels](howto-docs/howto-permission-levels.md)
+
+---

@@ -59,8 +59,8 @@ Follow the guide below to complete your host setup:
 
 ---
 
-## Send Network Invites
+## Create Network Invites
 
-Send Network Invites To People You Want To Join Your Network:
+Create and send Network Invites To People You Want To Join Your Network:
 
-➡️ [How to Send A Network Host Invite](howto-network-invite-send.md)
+➡️ [How to Send A Network Host Invite](howto-network-invite-create.md)

@@ -65,7 +65,7 @@ Using a domain name prevents the need to resend network invites if your host’s
 ## Setup and Configure a NLC Network Host
 ➡️ [How to Setup and Cofigure a NLC Network Host](howto-nlc-network-host-setup.md)
 
-## Send Network Invites
-Send network invites to people you want to join your network:
+## Create Network Invites
+Create and send network invites to people you want to join your network:
 
-➡️ [How to Send a Network Host Invite](howto-network-invite-send.md)
+➡️ [How to Send a Network Host Invite](howto-network-invite-create.md)

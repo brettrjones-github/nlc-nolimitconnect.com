@@ -26,7 +26,7 @@ Movie will play in NLC
 
     If available shows a thumbnail associated with the media. If not available the button is hidden
 
-3. **Stream (Play meadia) in NLC**
+3. **Stream (Play media) in NLC**
 
     Play the media file using NLC built-in media player or image viewer. The file is not downloaded to your device.
 

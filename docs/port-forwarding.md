@@ -90,7 +90,7 @@ Most mobile carriers use **carrier-grade NAT**, which does **not** support port 
 
 In these cases:
 
-- Direct mode is not possible without a VPN that supports UPNP
+- Direct mode is not possible without a VPN that supports UPnP
 - Relay mode will be used automatically if port is not open
 - NoLimitConnect will still function normally
 
