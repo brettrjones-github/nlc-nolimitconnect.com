@@ -1,24 +1,35 @@
 # Application Screenshots
 
-A visual overview of the NoLimitConnect interface.  
+This page showcases the current NoLimitConnect user interface and some core features.
+All screenshots are taken from the actively developed application.
 Click any image to view the full-size version.
 
+!!! warning
+    NoLimitConnect is under active development.  
+    Screenshots may change as features evolve.
 ---
 
-## Main Application Views
+## Main Interface
 
-### Screenshot 1
-![Main Screen](assets/screenshots/nlc-image1.png)
+The primary application window showing applets, navigation, and the integrated messenger.
 
----
-
-### Screenshot 2
-![Chat Interface](assets/screenshots/nlc-image2.png)
+![Main window showing applet icons and Messenger](assets/screenshots/nlc-image1.png){ loading=lazy }
 
 ---
 
-### Screenshot 3
-![Connection Panel](assets/screenshots/nlc-image3.png)
+## Vertical Display Mode
+
+Optimized layout for vertical displays and smaller screens.
+
+![The main window in vertical display mode](assets/screenshots/nlc-image2.png){ loading=lazy }
+
+---
+
+## Media Player
+
+Built-in media player playing shared video content.
+
+![The Media Player playing a video](assets/screenshots/nlc-image3.png){ loading=lazy }
 
 ---
 
@@ -43,4 +54,17 @@ just the appropriate host needs to be enabled.
 All hosts need a open port for users to connect to.
 
 
-![Permissions Dialog](assets/screenshots/nlc-permissions.png)
+![Plugin Permissions Dialog](assets/screenshots/nlc-permissions.png)
+
+---
+
+## About These Screenshots
+
+- Features shown:
+  - Messaging
+  - Media playback
+  - Applet-based interface
+  - Responsive layout modes
+  - User controlled permissions
+
+More screenshots will be added as development progresses.

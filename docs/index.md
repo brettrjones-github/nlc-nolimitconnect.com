@@ -17,6 +17,8 @@ hide:
 
 No Limit Connect gives you full control over your data with direct, peer-to-peer communication — no servers, no tracking, no limits.
 
+➡️ [Screenshots](screenshots.md)
+
 ---
 
 ## 🚀 Get Started

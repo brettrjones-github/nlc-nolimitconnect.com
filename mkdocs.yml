@@ -89,7 +89,7 @@ nav:
       - Relay Overview: relay-overview.md
       - Network Overview: network-overview.md
 
-  - Developer Documentation:
+  - Developer Docs:
       - Overview: developer-docs/README.md
       - Setup Windows Build Env: developer-docs/Setup_Windows_Build_Environment.md
       - Setup Ubuntu Build Env: developer-docs/Setup_Linux_Build_Environment.md
@@ -111,13 +111,16 @@ nav:
       - Play Or Download Files: howto-docs/howto-play-or-download-files.md 
       - Host Group, ChatRoom or Random Connect: howto-docs/howto-user-host.md 
       - Open A Port: port-forwarding.md
-      - Setup A NLC Network - Overview:  howto-docs/howto-nlc-network-overview.md 
+      - Setup A NLC Network - Overview: howto-docs/howto-nlc-network-overview.md 
       - Setup A NLC Network - Low/No Cost: howto-docs/howto-nlc-network-low-cost.md 
       - Setup A NLC Network - High Cost: howto-docs/howto-nlc-network-high-cost.md 
       - Setup A NLC Network - High Cost: howto-docs/howto-nlc-network-high-cost.md 
       - Create Network Invite: howto-docs/howto-network-invite-create.md 
       - Accept Network Invite: howto-docs/howto-network-invite-accept.md 
 
+  - Contribute:
+      - Donate: donate.md
+      - Contributing: contribute.md
 
   - Legal:
       - Privacy Policy: nlc/privacy-policy.md 

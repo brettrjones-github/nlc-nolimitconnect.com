@@ -1,3 +1,0 @@
-// serve the generated web page
-mkdocs serve
-

@@ -16,7 +16,7 @@ The **Community Edition** may be less visible on the site and could require navi
 
 Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors when ran)
 
-## Troubleshot Qt Installation Issues
+## Troubleshoot Qt Installation Issues
 - If Qt Error Missing X11 headers: 
 ```bash
 sudo apt install libxext-dev libxfixes-dev libx11-dev
