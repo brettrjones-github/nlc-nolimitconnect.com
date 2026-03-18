@@ -108,4 +108,4 @@ Each guide includes step-by-step instructions for configuring your development e
 
 ## Bug Tracker
 
-➡️ **<https://gitlab.com/nolimitconnectapps/nolimitconnect/issues>**
+➡️ **<https://gitlab.com/nolimitcode/nolimitconnect/issues>**

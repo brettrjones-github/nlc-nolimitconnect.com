@@ -1,7 +1,7 @@
 # Windows Compile NoLimitConnect in Visual Studio Code
 
 ## Checkout code
-`git clone https://gitlab.com/nolimitconnectapps/nolimitconnect.git`
+`git clone https://gitlab.com/nolimitcode/nolimitconnect.git`
 
 ## Open in Visual Studio Code
 1. Open the cloned `nolimitconnect` folder in Visual Studio Code.

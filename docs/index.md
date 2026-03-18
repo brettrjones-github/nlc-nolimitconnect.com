@@ -71,4 +71,4 @@ User guides, developer docs, and build instructions included.
 
 No Limit Connect is built by a privacy-focused community dedicated to open communication and secure, decentralized technology.
 
-[Visit our GitLab Source Code Repo →](https://gitlab.com/nolimitconnectapps/nolimitconnect/)
+[Visit our GitLab Source Code Repo →](https://gitlab.com/nolimitcode/nolimitconnect/)

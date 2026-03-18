@@ -12,13 +12,13 @@ docker run -it brettrjonesdocker/nolimitappimage:nlcdevimage-1.0.8 bash
 
 2. Checkout source code:
 ```bash
-git clone https://gitlab.com/nolimitconnectapps/nolimitconnect.git
+git clone https://gitlab.com/nolimitcode/nolimitconnect.git
 cd nolimitconnect
 ```
 
 3. Create build folder:
 ```bash
-mkdir -p ~/builds/nolimitconnectapps/nolimitconnect/build/nlc_build
+mkdir -p ~/builds/nolimitcode/nolimitconnect/build/nlc_build
 cd nlc_build
 ```
 

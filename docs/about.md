@@ -37,7 +37,7 @@ Website: http://nolimitconnect.com
 
 ## Source Code
 Open Sourced code that can be cloned with 
-git clone https://gitlab.com/nolimitconnectapps/nolimitconnect
+git clone https://gitlab.com/nolimitcode/nolimitconnect
 
 ## Description
 A independent social network designed to be hosted on any device with an internet connection. 
