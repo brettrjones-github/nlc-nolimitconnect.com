@@ -18,7 +18,7 @@ Before building, your Qt installation must include the Android toolchain (Androi
 ### 2. Clone the Repository
 
 ```bash
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
+git clone https://gitlab.com/nolimitconnectapps/nolimitconnect.git
 ---
 
 ### 3. Open the Project in Qt Creator
@@ -26,7 +26,7 @@ git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
 - Launch **Qt Creator**
 - Select **Open Project**
 - Open the file:  
-  `nolimitapp/CMakeLists.txt`
+  `nolimitconnect/CMakeLists.txt`
 
 ---
 

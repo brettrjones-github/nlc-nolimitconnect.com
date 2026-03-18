@@ -15,8 +15,8 @@
 
 1. Checkout NoLimitConnect:
 ```bash
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
-cd nolimitapp
+git clone https://gitlab.com/nolimitconnectapps/nolimitconnect.git
+cd nolimitconnect
 ```
 
 2. Allow flatpak submodules (required for GL/glu lib):

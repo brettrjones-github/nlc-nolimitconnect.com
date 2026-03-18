@@ -1,10 +1,8 @@
-# Windows Compile NoLimitConnect in Visual Studio
+# Legacy: Visual Studio Build Guide
 
-## Checkout code
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
+Visual Studio 2026 IDE support has been dropped.
 
-## Compile in Visual Studio
-Open nolimitapp/nolimitgui/build/VS2026/NoLimitConnectAll.sln
-Right Click NoLimitConnect → Set As Startup Project
-Compile
+Use the Visual Studio Code workflow instead:
+
+- [**Compile in Visual Studio Code**](Compile_NoLimitConnect_VisualCode.md)
 

@@ -3,7 +3,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
+git clone https://gitlab.com/nolimitconnectapps/nolimitconnect.git
 ```
 
 ### 2. Open the Project in Qt Creator
@@ -11,7 +11,7 @@ git clone https://gitlab.com/nolimitconnectapps/nolimitapp.git
 - Launch **Qt Creator**
 - Select **Open Project**
 - Open the file:  
-  `nolimitapp/CMakeLists.txt`
+  `nolimitconnect/CMakeLists.txt`
 
 ---
 

@@ -72,7 +72,7 @@ Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors 
 ## 🛠 Build Environments
 
 - **Windows Build Environment**  
-  Setup instructions for Visual Studio, SDKs, and the Windows-specific toolchain.
+  Setup instructions for Visual Studio Code, SDKs, and the Windows-specific toolchain.
  [**Setup Windows**](Setup_Windows_Build_Environment.md)
 
 - **Linux Build Environment**  
@@ -91,7 +91,7 @@ Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors 
 
 ## 🧱 Compilation Guides
 
-- [**Compile with Visual Studio**](Compile_NoLimitConnect_VisualStudio.md)
+- [**Compile with Visual Studio Code**](Compile_NoLimitConnect_VisualCode.md)
 - [**Compile with QCreator**](Compile_NoLimitConnect_QCreator.md)
 - [**Compile with Docker**](Compile_NoLimitConnect_Docker.md)
 - [**Compile with Flatpak**](Compile_NoLimitConnect_Flatpak.md)
@@ -108,4 +108,4 @@ Each guide includes step-by-step instructions for configuring your development e
 
 ## Bug Tracker
 
-➡️ **<https://gitlab.com/nolimitconnectapps/nolimitapp/issues>**
+➡️ **<https://gitlab.com/nolimitconnectapps/nolimitconnect/issues>**

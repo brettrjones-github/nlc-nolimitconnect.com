@@ -1,6 +1,6 @@
 # 📱 Building NoLimitConnect for Windows
 
-## 🚀 Build with Visual Studio
+## 🚀 Build with Visual Studio Code
 
 ### 1. Setup Windows Build
 
@@ -8,5 +8,5 @@
 
 ### 2. Compile the Project
 
-- [**Compile**](Compile_NoLimitConnect_VisualStudio.md)
+- [**Compile**](Compile_NoLimitConnect_VisualCode.md)
 
