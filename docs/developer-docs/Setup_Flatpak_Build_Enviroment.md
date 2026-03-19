@@ -1,17 +1,5 @@
 # Setup Flatpak Build Environment
 
-    # FlatPak 6.7 works but 6.9 fails
-    
-    # with Raspberry Pi 5:
-    # bwrap: execvp appstream-compose: No such file or directory
-    
-    # with Ubuntu 24.04:
-    # /usr/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/../../../../x86_64-unknown-linux-gnu/bin/ld: cannot find -lGLU: No such file or directory
-    # even though modules has
-    # - shared-modules/glu/glu-9.json
-
-    # So build with 6.7 for now
-
 ## Steps
 1. Install Flatpak
 
@@ -33,7 +21,7 @@
 
 3. Install KDE Platform
 
-    Select version 6.7 when prompted.
+    Select version 6.9 when prompted.
 
     ```bash
     flatpak install flathub org.kde.Platform
@@ -42,7 +30,7 @@
 
 4. Install the KDE SDK:
 
-    Select version 6.7 when prompted.
+    Select version 6.9 when prompted.
 
     ```bash
     flatpak install flathub org.kde.Sdk

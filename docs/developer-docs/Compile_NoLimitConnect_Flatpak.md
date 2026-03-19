@@ -1,5 +1,21 @@
 # Compile NoLimitConnect Using Flatpak
 
+## Notes for Raspberry Pi 5:
+## if you see the error
+## bwrap: execvp appstream-compose: No such file or directory
+## try
+```bash
+sudo apt update
+sudo apt install appstream-generator
+which appstream-compose
+```
+# if which appstream-compose is empty you may have to
+```bash
+sudo ln -s /usr/bin/appstreamcli /usr/local/bin/appstream-compose
+which appstream-compose
+```
+
+
 1. Checkout NoLimitConnect:
 ```bash
 git clone https://gitlab.com/nolimitcode/nolimitconnect.git

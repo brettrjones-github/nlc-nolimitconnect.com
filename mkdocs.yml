@@ -74,6 +74,8 @@ nav:
 
   - FAQ: faq.md
 
+  - Feedback: feedback.md
+
   - User Guides:
       - Overview: user-docs/README.md
       - Install on Windows: user-docs/install-windows.md

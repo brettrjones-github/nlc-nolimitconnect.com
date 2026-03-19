@@ -1,4 +1,19 @@
-# Download
+# Download - Comming Soon
+
+## Languages supported by NoLimitConnect
+## 	{"English", "en"},
+## 	{"Deutsch (German)", "de"},
+## 	{"简体中文 (Chinese)", "zh"},
+## 	{"Español (Spanish)", "es"},
+## 	{"Français (French)", "fr"},
+## 	{"العربية (Arabic)", "ar"},
+## 	{"हिन्दी (Hindi)", "hi"},
+## 	{"Português (Portuguese)", "pt"},
+## 	{"日本語 (Japanese)", "ja"},
+## 	{"한국어 (Korean)", "ko"},
+## 	{"Русский (Russian)", "ru"},
+## 	{"Bahasa Indonesia (Indonesian)", "id"},
+## 	{"ไทย (Thai)", "th"}
 
 Choose your platform:
 
