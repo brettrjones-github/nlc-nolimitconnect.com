@@ -17,3 +17,6 @@ css
 
 # Local Netlify folder
 site/*
+
+# Package binaries — hosted on GitLab, not committed here
+docs/downloads/

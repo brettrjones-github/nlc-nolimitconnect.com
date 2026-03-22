@@ -1,31 +1,75 @@
-# Download - Comming Soon
+# Download - For Beta Testers ONLY
 
-## Languages supported by NoLimitConnect
-## 	{"English", "en"},
-## 	{"Deutsch (German)", "de"},
-## 	{"简体中文 (Chinese)", "zh"},
-## 	{"Español (Spanish)", "es"},
-## 	{"Français (French)", "fr"},
-## 	{"العربية (Arabic)", "ar"},
-## 	{"हिन्दी (Hindi)", "hi"},
-## 	{"Português (Portuguese)", "pt"},
-## 	{"日本語 (Japanese)", "ja"},
-## 	{"한국어 (Korean)", "ko"},
-## 	{"Русский (Russian)", "ru"},
-## 	{"Bahasa Indonesia (Indonesian)", "id"},
-## 	{"ไทย (Thai)", "th"}
+Choose the package that matches your platform. Each published download includes a SHA-256 sidecar file so the package can be verified after download.
 
-Choose your platform:
+## Latest Packages (Live)
 
+This section is loaded from GitLab package metadata at page load.
+
+<div id="dynamic-downloads">Loading latest package metadata from GitLab...</div>
+
+## Fallback Snapshot
+
+If the live metadata endpoint is unavailable, use the snapshot below.
+
+<!-- BEGIN GENERATED DOWNLOADS -->
+
+<!-- BEGIN SECTION: windows -->
 ## Windows
-- Installer: (link to your installer or GitLab release)
+- Latest package: [NoLimitConnect-1.1.0-x64.exe](https://gitlab.com/api/v4/projects/nolimitcode%2Fnolimitconnect/packages/generic/windows/1.1.0/NoLimitConnect-1.1.0-x64.exe)
+- SHA-256: [NoLimitConnect-1.1.0-x64.exe.sha256](https://gitlab.com/api/v4/projects/nolimitcode%2Fnolimitconnect/packages/generic/windows/1.1.0/NoLimitConnect-1.1.0-x64.exe.sha256)
+- Last updated: 2026-03-22 09:39:05 UTC
+- Notes: NSIS installer for Windows x64.
+<!-- END SECTION: windows -->
 
+<!-- BEGIN SECTION: linux -->
 ## Linux
-- Packages and build instructions: see Developer Docs and User Guides.
+- No deployed package yet.
+- Notes: Debian package for Linux x64.
+<!-- END SECTION: linux -->
 
+<!-- BEGIN SECTION: android-signed -->
 ## Android
-- APK/Store links: (link here)
+- No deployed package yet.
+- Notes: Signed APK intended for release distribution.
+<!-- END SECTION: android-signed -->
 
----
+<!-- BEGIN SECTION: flatpak -->
+## Flatpak
+- No deployed package yet.
+- Notes: Flatpak bundle for Linux desktops with Flatpak support.
+<!-- END SECTION: flatpak -->
 
-If you'd like, I can format this page to include direct download links or a small table of releases. Provide the URLs or tell me where you host binaries and I’ll add them.
+<!-- END GENERATED DOWNLOADS -->
+
+## Verify A Download
+
+PowerShell:
+
+```powershell
+Get-FileHash -Algorithm SHA256 .\NoLimitConnect-<version>-x64.exe
+Get-Content .\NoLimitConnect-<version>-x64.exe.sha256
+```
+
+Linux:
+
+```bash
+sha256sum NoLimitConnect-<version>-x64.deb
+cat NoLimitConnect-<version>-x64.deb.sha256
+```
+
+## Languages Supported By NoLimitConnect
+
+1. English
+2. Deutsch (German)
+3. Simplified Chinese
+4. Espanol (Spanish)
+5. Francais (French)
+6. Arabic
+7. Hindi
+8. Portugues (Portuguese)
+9. Japanese
+10. Korean
+11. Russian
+12. Bahasa Indonesia
+13. Thai

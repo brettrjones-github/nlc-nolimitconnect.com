@@ -135,3 +135,6 @@ plugins:
   - search
 #  - glightbox   # Only enable if installed via pip
 
+extra_javascript:
+  - javascripts/download-index.js
+
