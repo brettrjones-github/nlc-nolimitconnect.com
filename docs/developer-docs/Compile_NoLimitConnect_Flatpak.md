@@ -8,7 +8,7 @@ cd nolimitconnect
 
 2. Build and install:
 ```bash
-flatpak-builder --user --install -force-clean build-dir com.nolimitconnect.NoLimitConnect.yml
+flatpak-builder --user --install --force-clean build-dir com.nolimitconnect.NoLimitConnect.yml
 ```
 
 3. Run:
