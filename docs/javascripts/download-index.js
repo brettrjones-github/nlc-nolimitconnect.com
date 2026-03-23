@@ -2,10 +2,11 @@
 
   var gitlabBase = 'https://gitlab.com/api/v4/projects/nolimitcode%2Fnolimitconnect/packages/generic/download-index/v1/';
   var platforms = [
-    { key: 'windows', title: 'Windows', notes: 'NSIS installer for Windows x64.' },
-    { key: 'linux', title: 'Linux', notes: 'Debian package for Linux x64.' },
-    { key: 'android-signed', title: 'Android', notes: 'Signed APK intended for release distribution.' },
-    { key: 'flatpak', title: 'Flatpak', notes: 'Flatpak bundle for Linux desktops with Flatpak support.' }
+    { keys: ['windows'], title: 'Windows', notes: 'NSIS installer for Windows x64.' },
+    { keys: ['linux'], title: 'Linux', notes: 'Debian package for Linux x64.' },
+    { keys: ['android-signed'], title: 'Android', notes: 'Signed APK intended for release distribution.' },
+    { keys: ['flatpak-x64', 'flatpak-amd64', 'flatpak'], title: 'Flatpak (x64)', notes: 'Flatpak bundle for Linux x64 desktops with Flatpak support.' },
+    { keys: ['flatpak-arm64'], title: 'Flatpak (ARM64)', notes: 'Flatpak bundle for Linux ARM64 desktops with Flatpak support.' }
   ];
 
   function formatUtc(isoUtc) {
@@ -74,20 +75,46 @@
     return section;
   }
 
-  function loadPlatform(platform) {
-    var url = gitlabBase + encodeURIComponent(platform.key) + '.json';
+  function tryLoadPlatformByKeys(keys, index) {
+    if (index >= keys.length) {
+      throw new Error('HTTP 404');
+    }
+
+    var key = keys[index];
+    var url = gitlabBase + encodeURIComponent(key) + '.json';
+
     return fetch(url, { cache: 'no-store' })
       .then(function (response) {
         if (!response.ok) {
+          if (response.status === 404) {
+            return tryLoadPlatformByKeys(keys, index + 1);
+          }
           throw new Error('HTTP ' + response.status);
         }
-        return response.json();
-      })
-      .then(function (json) {
-        return { platform: platform, payload: json, error: null };
+        return response.json().then(function (json) {
+          return {
+            payload: json,
+            resolvedKey: key
+          };
+        });
       })
       .catch(function (error) {
-        return { platform: platform, payload: null, error: error.message };
+        if (index < keys.length - 1) {
+          return tryLoadPlatformByKeys(keys, index + 1);
+        }
+        throw error;
+      });
+  }
+
+  function loadPlatform(platform) {
+    var keys = platform.keys || (platform.key ? [platform.key] : []);
+
+    return tryLoadPlatformByKeys(keys, 0)
+      .then(function (result) {
+        return { platform: platform, payload: result.payload, error: null, resolvedKey: result.resolvedKey };
+      })
+      .catch(function (error) {
+        return { platform: platform, payload: null, error: error.message, resolvedKey: null };
       });
   }
 

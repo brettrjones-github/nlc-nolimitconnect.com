@@ -21,15 +21,3 @@ If you prefer you can compile NoLimitConnect using Flatpak.
 
 ### Flatpak Build Instructions
 - [**Compile with Flatpak**](Compile_NoLimitConnect_Flatpak.md)
-
----
-
-## 🚀 Option 3 — Build Using Docker
-
-If you prefer you can compile NoLimitConnect using Docker.
-
-### Docker Setup Guide
-[**Setup Docker**](Setup_For_Docker_Image_Build_Environment.md)
-
-### Docker Build Instructions
-[**Compile with Docker**](Compile_NoLimitConnect_Docker.md)

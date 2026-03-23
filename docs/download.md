@@ -35,10 +35,16 @@ If the live metadata endpoint is unavailable, use the snapshot below.
 <!-- END SECTION: android-signed -->
 
 <!-- BEGIN SECTION: flatpak -->
-## Flatpak
+## Flatpak (x64)
 - No deployed package yet.
-- Notes: Flatpak bundle for Linux desktops with Flatpak support.
+- Notes: Flatpak bundle for Linux x64 desktops with Flatpak support.
 <!-- END SECTION: flatpak -->
+
+<!-- BEGIN SECTION: flatpak-arm64 -->
+## Flatpak (ARM64)
+- No deployed package yet.
+- Notes: Flatpak bundle for Linux ARM64 desktops with Flatpak support.
+<!-- END SECTION: flatpak-arm64 -->
 
 <!-- END GENERATED DOWNLOADS -->
 

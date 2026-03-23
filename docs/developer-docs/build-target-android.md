@@ -1,7 +1,7 @@
 # 📱 Building NoLimitConnect for Android
 
-This page describes the two supported methods for compiling NoLimitConnect for Android:  
-**(1) using Qt Creator** and **(2) using Docker**.
+This page describes the supported method for compiling NoLimitConnect for Android:  
+**using Qt Creator**.
 
 ---
 
@@ -48,13 +48,4 @@ git clone https://gitlab.com/nolimitcode/nolimitconnect.git
     Optional: set C compiler to ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\aarch64-linux-android23-clang
 
 
-## 🐳 Option 2 — Build Using Docker
-
-If you prefer a reproducible, isolated build environment, you can compile NoLimitConnect using Docker.
-
-### Docker Setup Guide
-[**Setup Docker**](Setup_For_Docker_Image_Build_Environment.md)
-
-### Docker Build Instructions
-[**Compile with Docker**](Compile_NoLimitConnect_Docker.md)
 

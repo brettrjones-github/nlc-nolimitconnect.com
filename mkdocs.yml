@@ -95,11 +95,9 @@ nav:
       - Overview: developer-docs/README.md
       - Setup Windows Build Env: developer-docs/Setup_Windows_Build_Environment.md
       - Setup Ubuntu Build Env: developer-docs/Setup_Linux_Build_Environment.md
-      - Setup Docker Image Build Env: developer-docs/Setup_For_Docker_Image_Build_Environment.md
       - Setup Flatpak Build Env: developer-docs/Setup_Flatpak_Build_Enviroment.md
       - Compile (Visual Studio Code): developer-docs/Compile_NoLimitConnect_VisualCode.md
       - Compile (Qt Creator): developer-docs/Compile_NoLimitConnect_QCreator.md
-      - Compile (Docker): developer-docs/Compile_NoLimitConnect_Docker.md
       - Compile (Flatpak): developer-docs/Compile_NoLimitConnect_Flatpak.md
 
   - How-To Guides:

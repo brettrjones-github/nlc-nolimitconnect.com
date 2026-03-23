@@ -9,7 +9,7 @@ This section provides everything you need to build, compile, and contribute to t
 ### 🛠 Qt Setup and Recommended Version
 
 Qt provides the graphical UI framework used by **NoLimitConnect**.  
-All build environments **except Docker and Flatpak** require a local Qt installation.
+All build environments **except Flatpak** require a local Qt installation.
 
 Although most Qt 6.x.x versions work, it is recommended to use:
 
@@ -79,10 +79,6 @@ Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors 
   Required libraries, dependencies, and system configuration.
  [**Setup Linux**](Setup_Linux_Build_Environment.md)
 
-- **Docker Build Environment**  
-  Build system isolation using containerized environments.
-  [**Setup Docker**](Setup_For_Docker_Image_Build_Environment.md)
-
 - **Flatpak Build Environment**  
   Setup uild system flatpak environments.
   [**Setup Flatpak**](Setup_Flatpak_Build_Enviroment.md)
@@ -93,7 +89,6 @@ Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if QCreator has errors 
 
 - [**Compile with Visual Studio Code**](Compile_NoLimitConnect_VisualCode.md)
 - [**Compile with QCreator**](Compile_NoLimitConnect_QCreator.md)
-- [**Compile with Docker**](Compile_NoLimitConnect_Docker.md)
 - [**Compile with Flatpak**](Compile_NoLimitConnect_Flatpak.md)
 
 Each guide includes step-by-step instructions for configuring your development environment and successfully building the project.
