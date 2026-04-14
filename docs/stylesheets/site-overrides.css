@@ -1,0 +1,37 @@
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.download-card {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: linear-gradient(165deg, rgba(30, 41, 59, 0.7), rgba(17, 24, 39, 0.65));
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.download-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+
+.download-card h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.download-card ul {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
+
+.download-card-icon {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+}

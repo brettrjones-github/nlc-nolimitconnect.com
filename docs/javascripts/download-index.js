@@ -2,11 +2,12 @@
 
   var gitlabBase = 'https://gitlab.com/api/v4/projects/nolimitcode%2Fnolimitconnect/packages/generic/download-index/v1/';
   var platforms = [
-    { keys: ['windows'], title: 'Windows', notes: 'NSIS installer for Windows x64.' },
-    { keys: ['linux'], title: 'Linux', notes: 'Debian package for Linux x64.' },
-    { keys: ['android-signed'], title: 'Android', notes: 'Signed APK intended for release distribution.' },
-    { keys: ['flatpak-x64', 'flatpak-amd64', 'flatpak'], title: 'Flatpak (x64)', notes: 'Flatpak bundle for Linux x64 desktops with Flatpak support.' },
-    { keys: ['flatpak-arm64'], title: 'Flatpak (ARM64)', notes: 'Flatpak bundle for Linux ARM64 desktops with Flatpak support.' }
+    { keys: ['windows'], title: 'Windows', notes: 'NSIS installer for Windows x64.', icon: '/assets/icons/icon-windows.svg' },
+    { keys: ['linux'], title: 'Linux', notes: 'Debian package for Linux x64.', icon: '/assets/icons/icon-tux.svg' },
+    { keys: ['linux-arm64', 'linux-arm', 'linux-aarch64'], title: 'Linux (ARM64)', notes: 'Debian package for Linux ARM64, including Raspberry Pi and Orange Pi devices.', icon: '/assets/icons/icon-orange-pi.svg' },
+    { keys: ['android-signed'], title: 'Android', notes: 'Signed APK intended for release distribution.', icon: '/assets/icons/icon-android.svg' },
+    { keys: ['flatpak-x64', 'flatpak-amd64', 'flatpak'], title: 'Flatpak (x64)', notes: 'Flatpak bundle for Linux x64 desktops with Flatpak support.', icon: '/assets/icons/icon-ubuntu.svg' },
+    { keys: ['flatpak-arm64', 'flatpak-arm', 'flatpak-aarch64'], title: 'Flatpak (ARM64)', notes: 'Flatpak bundle for Linux ARM64 desktops with Flatpak support.', icon: '/assets/icons/icon-orange-pi.svg' }
   ];
 
   function formatUtc(isoUtc) {
@@ -24,10 +25,26 @@
 
   function createPlatformSection(platform, payload, errorMessage) {
     var section = document.createElement('section');
+    section.className = 'download-card';
+
+    var headingWrap = document.createElement('div');
+    headingWrap.className = 'download-card-title';
+
+    if (platform.icon) {
+      var icon = document.createElement('img');
+      icon.src = platform.icon;
+      icon.alt = platform.title + ' icon';
+      icon.className = 'download-card-icon';
+      icon.onerror = function () {
+        this.style.display = 'none';
+      };
+      headingWrap.appendChild(icon);
+    }
 
     var heading = document.createElement('h2');
     heading.textContent = platform.title;
-    section.appendChild(heading);
+    headingWrap.appendChild(heading);
+    section.appendChild(headingWrap);
 
     var list = document.createElement('ul');
 
@@ -128,6 +145,7 @@
 
     Promise.all(platforms.map(loadPlatform)).then(function (results) {
       mount.innerHTML = '';
+      mount.className = 'download-grid';
 
       results.forEach(function (result) {
         mount.appendChild(createPlatformSection(result.platform, result.payload, result.error));

@@ -136,3 +136,6 @@ plugins:
 extra_javascript:
   - javascripts/download-index.js
 
+extra_css:
+  - stylesheets/site-overrides.css
+

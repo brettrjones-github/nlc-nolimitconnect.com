@@ -4,9 +4,8 @@ hide:
 ---
 
 !!! warning "🚧 NoLimitConnect is in Active Development"
-    The application is **not yet published**.  
-    Only developers and early testers who build from source should use NoLimitConnect at this time.  
-    Instructions for compiling are available in the **[Developer Documentation](developer-docs/README.md)**.
+  The application is in public beta and still under active development.  
+  Pre-release builds are available from the **[Download](download.md)** page.
 
 <div align="center">
   <img src="assets/nlc-logo.svg" width="180" style="margin-bottom: 20px;">
@@ -15,7 +14,9 @@ hide:
 # No Limit Connect  
 ### A private, decentralized communication platform
 
-No Limit Connect gives you full control over your data with direct, peer-to-peer communication — no servers, no tracking, no limits.
+No Limit Connect gives you full control over your data with direct, peer-to-peer communication.
+
+Use the public bootstrap hosts to get started quickly, then move to your own private network hosts when you are ready.
 
 ➡️ [Screenshots](screenshots.md)
 
@@ -24,7 +25,7 @@ No Limit Connect gives you full control over your data with direct, peer-to-peer
 ## 🚀 Get Started
 
 ### :material-download: **Download**
-Install No Limit Connect on Windows, Linux, or Android.  
+Try the current beta builds on Windows, Linux, Linux ARM, Flatpak, or Android.  
 ➡️ [Download Now](download.md)
 
 ### :material-book-open-page-variant: **User Guide**
@@ -35,6 +36,10 @@ Learn the basics, install clients, and start connecting.
 Build from source, compile clients, or contribute to the core platform.  
 ➡️ [Developer Docs](developer-docs/README.md)
 
+### :material-server-network: **Host Your Own Private Network**
+Set up your own NoLimitConnect Network Host and Connection Test Host on your own hardware or VPS.  
+➡️ [Network Host Setup Guide](howto-docs/howto-nlc-network-overview.md)
+
 ---
 
 ## 🔧 Features
@@ -43,13 +48,27 @@ Build from source, compile clients, or contribute to the core platform.
 Decentralized, encrypted, and peer-to-peer by design.
 
 ### :material-lan-connect: Direct Connections
-Use public network or enable a private network, no tracking, no central authority.
+Use bootstrap hosts for easy onboarding or run your own private network hosts for full control.
 
 ### :material-shield-check: Secure by Default
 Connections use end-to-end encryption.
 
 ### :material-cellphone-link: Cross-Platform
-Windows, Linux, Raspberry Pi and Android supported.
+Windows, Linux, Linux ARM (Raspberry Pi and Orange Pi), and Android supported.
+
+---
+
+## 🌐 Public Bootstrap, Private Ownership
+
+Public NoLimitConnect infrastructure hosts are available to help new users get started.
+
+The long-term goal is still private ownership:
+
+- Run your own Network Host and Connection Test Host.
+- Keep control of your own community and policies.
+- Avoid central lock-in while staying compatible with the wider network.
+
+➡️ [How network hosts work](network-overview.md)
 
 ### :material-book-cog: Extensive Documentation
 User guides, developer docs, and build instructions included.

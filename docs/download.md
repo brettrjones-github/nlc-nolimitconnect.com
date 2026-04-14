@@ -1,6 +1,10 @@
-# Download - For Beta Testers ONLY
+# Download - Public Beta Builds
 
 Choose the package that matches your platform. Each published download includes a SHA-256 sidecar file so the package can be verified after download.
+
+These are pre-Flathub and pre-store builds published for early users and testers.
+
+If you are new to NoLimitConnect, start with public bootstrap hosts first, then set up your own private Network Host and Connection Test Host when ready.
 
 ## Latest Packages (Live)
 
@@ -27,6 +31,12 @@ If the live metadata endpoint is unavailable, use the snapshot below.
 - No deployed package yet.
 - Notes: Debian package for Linux x64.
 <!-- END SECTION: linux -->
+
+<!-- BEGIN SECTION: linux-arm64 -->
+## Linux (ARM64)
+- No deployed package yet.
+- Notes: Debian package for Linux ARM64, including Raspberry Pi and Orange Pi devices.
+<!-- END SECTION: linux-arm64 -->
 
 <!-- BEGIN SECTION: android-signed -->
 ## Android
