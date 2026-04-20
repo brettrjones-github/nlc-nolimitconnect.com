@@ -7,7 +7,7 @@
     { keys: ['linux-arm64', 'linux-arm', 'linux-aarch64'], title: 'Linux (ARM64)', notes: 'Debian package for Linux ARM64, including Raspberry Pi and Orange Pi devices.', icon: '/assets/icons/icon-orange-pi.svg' },
     { keys: ['android-signed'], title: 'Android', notes: 'Signed APK intended for release distribution.', icon: '/assets/icons/icon-android.svg' },
     { keys: ['flatpak-x64', 'flatpak-amd64', 'flatpak'], title: 'Flatpak (x64)', notes: 'Flatpak bundle for Linux x64 desktops with Flatpak support.', icon: '/assets/icons/icon-ubuntu.svg' },
-    { keys: ['flatpak-arm64', 'flatpak-arm', 'flatpak-aarch64'], title: 'Flatpak (ARM64)', notes: 'Flatpak bundle for Linux ARM64 desktops with Flatpak support.', icon: '/assets/icons/icon-orange-pi.svg' }
+    { keys: ['flatpak-arm64', 'flatpak-arm', 'flatpak-aarch64'], title: 'Flatpak (ARM64)', notes: 'Flatpak bundle for Linux ARM64 desktops with Flatpak support.', icon: '/assets/icons/icon-raspberry-pi.svg' }
   ];
 
   function formatUtc(isoUtc) {
