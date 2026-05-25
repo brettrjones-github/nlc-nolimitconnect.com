@@ -10,6 +10,12 @@ site_description: Official website for NoLimitConnect — a decentralized, user-
 site_author: NoLimitConnect Project
 
 # ------------------------------------------------------
+# Include Redirects File for Netlify
+# ------------------------------------------------------
+extra_templates:
+  - _redirects
+
+# ------------------------------------------------------
 # Theme Configuration (Material – Dark Only)
 # ------------------------------------------------------
 theme:
@@ -125,7 +131,6 @@ nav:
   - Legal:
       - Privacy Policy: nlc/privacy-policy.md 
 
-
 # ------------------------------------------------------
 # Plugins
 # ------------------------------------------------------
@@ -138,4 +143,3 @@ extra_javascript:
 
 extra_css:
   - stylesheets/site-overrides.css
-
